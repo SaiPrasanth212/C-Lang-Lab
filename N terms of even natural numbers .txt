@@ -1,0 +1,18 @@
+03.11 7:52 pm
+N terms of even natural numbers 
+#include <stdio.h>
+
+void main()
+{
+   int i,n,s=0;
+
+   printf("Input number of terms : ");
+   scanf("%d",&n);
+   printf("\nThe even numbers are :");
+   for(i=1;i<=n;i++)
+   {
+     printf("%d ",2*i);
+     s=s+(2*i);
+   }
+   printf("\nThe Sum of even  Number up to %d terms : %d \n",n,s);
+} 
