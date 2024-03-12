@@ -1,5 +1,4 @@
-03.11 7:52 pm
-N terms of even natural numbers 
+
 #include <stdio.h>
 
 void main()
@@ -16,3 +15,9 @@ void main()
    }
    printf("\nThe Sum of even  Number up to %d terms : %d \n",n,s);
 } 
+
+
+Input number of terms : 5
+
+The even numbers are :2 4 6 8 10 
+The Sum of even  Number up to 5 terms : 30 
