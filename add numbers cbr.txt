@@ -1,5 +1,4 @@
-03.11 7:41 pm
-Add numbers using call by reference 
+ 
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,3 +28,10 @@ int add(int *no1, int *no2)
 	res = *no1 + *no2;
 	return res;
 }
+
+
+
+Enter the two number: 4
+5
+
+Addition of 4 and 5 is 9
