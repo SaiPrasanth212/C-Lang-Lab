@@ -34,3 +34,9 @@ int nonrecfactorial(int x)
    }
    return(f);
 }
+
+
+Enter any number
+5
+The factorial of a given number using recursion is 120 
+The factorial of a given number using nonrecursion is 120
