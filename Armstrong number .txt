@@ -1,5 +1,5 @@
-03.11 7:34 pm
-Armstrong number
+
+
 #include <stdio.h>
 int main() {
     int num, originalNum, remainder, result = 0;
@@ -25,3 +25,7 @@ int main() {
     return 0;
 }
 
+
+
+Enter a three-digit integer: 456
+456 is not an Armstrong number.
